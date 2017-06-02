@@ -1,0 +1,19 @@
+	Tagging interface in java (Penandaan antarmuka di java)
+
+Antarmuka penandaan adalah antarmuka tanpa metode abstrak di dalamnya,
+mereka digunakan untuk menambahkan tipe data untuk kelas yang mengimplementasikannya, 
+dan menjadi antarmuka induk untuk antarmuka lain (terutama dengan multiple inheritance in interface).
+
+Antarmuka penanda juga dapat digunakan untuk menentukan properti tambahan
+kelas yang tidak diwariskan oleh beberapa antarmuka lain yang sudah diterapkan. 
+Salah satu contohnya adalah antarmuka RandomAccess. 
+Ini menandakan koleksi yang bisa diakses secara acak tanpa kehilangan performa,
+dan tidak harus diakses via iterator untuk mencapai performa itu.
+
+kita dapat menandai kelas kita dengan antarmuka,
+pemberian tag untuk mengatakan kepada sesama pengembang dan konsumen kelas kita,
+bahwa kita secara eksplisit mendukung fungsi itu.Pikirkan Serialisas;  
+Seseorang yang perlu bertahan dalam sesi dan menggunakan serialisasi 
+untuk melakukannya dengan aman menggunakan objek kelas kita.
+
+
